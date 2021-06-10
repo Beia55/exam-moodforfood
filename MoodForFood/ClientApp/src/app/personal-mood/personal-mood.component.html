@@ -1,0 +1,63 @@
+
+<div class="example-button-row">
+  <button mat-raised-button color="accent" [routerLink]="['/personal-mood-add']">Add extra mood for today</button>
+</div>
+
+<div style="padding-bottom:17px">
+
+  <table mat-table [dataSource]="personalMoods" class="mat-elevation-z8">
+    <ng-container matColumnDef="moodName">
+      <th mat-header-cell *matHeaderCellDef style="width:25%">Mood Name</th>
+      <td mat-cell *matCellDef="let personalMood"> {{ personalMood.moodName }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="currentDate">
+      <th mat-header-cell *matHeaderCellDef style="width:25%">Date</th>
+      <td mat-cell *matCellDef="let personalMood"> {{ personalMood.currentDate }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="moodReason">
+      <th mat-header-cell *matHeaderCellDef style="width:35%">Mood Reason</th>
+      <td mat-cell *matCellDef="let personalMood"> {{ personalMood.moodReason }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef style="width:15%">Actions</th>
+      <td mat-cell *matCellDef="let personalMood">
+        <section>
+          <div class="example-button-row">
+            <button mat-icon-button color="accent" aria-label="Example icon button with a home icon" matTooltip="Edit">
+              <mat-icon aria-hidden="false" aria-label="Example home icon" [routerLink]="['/personal-mood-edit',personalMood.id]" style="cursor:pointer">edit</mat-icon>
+            </button>
+            <button mat-icon-button color="accent" aria-label="Example icon button with a home icon" matTooltip="Info">
+              <mat-icon aria-hidden="false" aria-label="Example home icon" [routerLink]="['/personal-mood-read',personalMood.id]" style="cursor:pointer">info</mat-icon>
+            </button>
+            <button mat-icon-button style="color:red" aria-label="Example icon button with a home icon" matTooltip="Delete">
+              <mat-icon aria-hidden="false" aria-label="Example home icon" (click)="deletePersonalMood(personalMood)" style="cursor:pointer">delete</mat-icon>
+            </button>
+          </div>
+        </section>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="columnsToDisplay "></tr>
+    <tr mat-row *matRowDef="let myRowData; columns: columnsToDisplay ;"></tr>
+  </table>
+
+
+</div>
+
+<!--<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="moods">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>PersonalMood</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let mood of moods">
+      <td>{{ mood.id }}</td>
+      <td>{{ mood.personalMood }}</td>
+    </tr>
+  </tbody>
+</table>-->

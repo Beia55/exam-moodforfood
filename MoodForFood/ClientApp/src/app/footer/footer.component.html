@@ -1,0 +1,37 @@
+<footer class="navbar-light bg-white border-top box-shadow text-center text-lg-start">
+
+  <!-- Grid container -->
+  <!--<div class="container p-4">-->
+  <!-- Section: Images -->
+  <!--<section >
+      <div class="row" >
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0" *ngFor="let foodImage of foodImages">
+          <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+            <img src="{{ foodImage.imageUrl }}" class="w-75" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);">
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>-->
+  <!-- Copyright -->
+
+  <div class="container pt-4">
+    <section class="mb-4">
+
+      <div *ngFor="let socialMedia of socialMedias" class="btn">
+        <button mat-icon-button color="accent" matTooltip="{{ socialMedia.name }}">
+          <i href="#" class="{{ socialMedia.code }}"></i>
+        </button>
+      </div>
+    </section>
+  </div>
+
+  <div class=" text-center p-3" style="background-color: rgb(221 211 211 / 0.17);">
+    © 2021 Copyright:
+    <a class="text-dark" href="#">Made By FFA</a>
+  </div>
+</footer>

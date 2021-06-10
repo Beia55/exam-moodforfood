@@ -1,0 +1,33 @@
+
+<div class="my-container-card" style="padding-bottom:17px">
+  <mat-card class="example-card" style="width:100%">
+
+    <h1 style="color: red; margin-left: 28%">Read Mood</h1>
+
+    <div style="padding:7%">
+
+      <mat-divider></mat-divider>
+      <mat-card-header style="margin-left:20%">
+        <mat-card-title>Mood Name:</mat-card-title>
+        <mat-card-subtitle>{{ personalMood.moodName }}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-divider></mat-divider>
+
+      <mat-card-header style="margin-left:20%">
+        <mat-card-title>Date:</mat-card-title>
+        <mat-card-subtitle>{{ personalMood.currentDate }}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-divider></mat-divider>
+
+      <mat-card-header style="margin-left:20%">
+        <mat-card-title>Mood Reason:</mat-card-title>
+        <mat-card-subtitle>{{ personalMood.moodReason}}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-divider></mat-divider>
+
+      <mat-card-content style="margin-left:25%; margin-top:10%; margin-bottom: -10px">
+        <button mat-raised-button color="accent" [routerLink]="['/personal-mood']">Back to list</button>
+      </mat-card-content>
+    </div>
+  </mat-card>
+</div>

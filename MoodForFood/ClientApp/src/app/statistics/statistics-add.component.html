@@ -1,0 +1,180 @@
+<!--class="d-flex justify-content-between"-->
+
+
+<div style="margin-bottom:50px; margin-top:35px">
+  <!--<button mat-raised-button (click)="isLinear = !isLinear" id="toggle-linear">
+    {{!isLinear ? 'Enable linear mode' : 'Disable linear mode'}}
+  </button>-->
+  <div class="d-flex justify-content-center">
+    <mat-vertical-stepper [linear]="isLinear" #stepper style="padding:5%">
+      <mat-step [stepControl]="firstFormGroup">
+        <form [formGroup]="firstFormGroup">
+          <ng-template matStepLabel>Fill out some information about you</ng-template>
+          <div>
+            <mat-form-field>
+              <mat-label>Your First Name</mat-label>
+              <input matInput [(ngModel)]="statistics.userFirstName" placeholder="First name" formControlName="firstCtrl" required>
+            </mat-form-field>
+            <mat-form-field style="margin-left:10px">
+              <mat-label>Your Last Name</mat-label>
+              <input matInput [(ngModel)]="statistics.userLastName" placeholder="Last name" formControlName="firstCtrl" required>
+            </mat-form-field>
+            <mat-form-field style="margin-left:10px">
+              <mat-form-field>
+                <mat-label>Your Age</mat-label>
+                <input matInput [type]="hide ? 'number' : 'number'" [(ngModel)]="statistics.userAge" formControlName="firstCtrl" required>
+                <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                  <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+              </mat-form-field>
+            </mat-form-field>
+          </div>
+          <div>
+            <button mat-raised-button matStepperNext color="accent">Next</button>
+          </div>
+        </form>
+
+      </mat-step>
+      <mat-step [stepControl]="secondFormGroup">
+        <form [formGroup]="secondFormGroup">
+          <ng-template matStepLabel>Raiting section</ng-template>
+          <mat-form-field>
+            <mat-label>Rating</mat-label>
+            <mat-select disableRipple [(value)]="statistics.rating" formControlName="secondCtrl" required>
+              <mat-option [value]="1">1</mat-option>
+              <mat-option [value]="2">2</mat-option>
+              <mat-option [value]="3">3</mat-option>
+              <mat-option [value]="4">4</mat-option>
+              <mat-option [value]="5">5</mat-option>
+            </mat-select>
+          </mat-form-field>
+          <div>
+            <button mat-raised-button matStepperPrevious color="accent">Previous</button>
+            <button mat-raised-button matStepperNext color="accent" style="margin-left:10px">Next</button>
+          </div>
+        </form>
+      </mat-step>
+
+      <mat-step [stepControl]="thirdFormGroup">
+        <form [formGroup]="thirdFormGroup">
+          <ng-template matStepLabel>Like & Dislike</ng-template>
+          <mat-form-field>
+            <mat-label>Like</mat-label>
+            <textarea matInput [(ngModel)]="statistics.whatLike" formControlName="thirdCtrl" placeholder="I liked ..." required></textarea>
+          </mat-form-field>
+          <mat-form-field style="margin-left:10px">
+            <mat-label>Dislike</mat-label>
+            <textarea matInput [(ngModel)]="statistics.whatDoNotLike" formControlName="thirdCtrl" placeholder="I didn't like ..." required></textarea>
+          </mat-form-field>
+          <div>
+            <button mat-raised-button matStepperPrevious color="accent">Previous</button>
+            <button mat-raised-button matStepperNext color="accent" style="margin-left:10px">Next</button>
+          </div>
+        </form>
+      </mat-step>
+
+      <mat-step>
+        <ng-template matStepLabel>Done</ng-template>
+        <div>
+          <button mat-raised-button matStepperPrevious color="accent">Previous</button>
+          <button mat-raised-button color="accent" (click)="saveStatistics()" style="margin-left:10px">Save</button>
+          <button mat-raised-button color="accent" (click)="stepper.reset()" style="margin-left:10px">Reset</button>
+        </div>
+      </mat-step>
+    </mat-vertical-stepper>
+  </div>
+</div>
+
+
+
+
+
+<!--
+
+<div class="my-container-card" style="padding-bottom:17px">
+  <mat-card class="example-card">
+    <div style="padding:7%">
+      <mat-card-header style="margin-left:15%">
+        <mat-card-title style="color: red; margin-bottom: 20%">Form for Statistics</mat-card-title>
+      </mat-card-header>
+
+      <mat-card-content style="margin-left:15%">
+        <mat-form-field appearance="fill" color="accent">
+          <mat-label>Your First Name</mat-label>
+          <input matInput [(ngModel)]="statistics.userFirstName" />
+        </mat-form-field>
+        <mat-form-field appearance="fill" color="accent">
+          <mat-label>Your First Last</mat-label>
+          <input matInput [(ngModel)]="statistics.userLastName" />
+        </mat-form-field>
+        <mat-form-field appearance="fill" color="accent">
+          <mat-label>Rating</mat-label>
+          <input matInput [(ngModel)]="statistics.rating" />
+        </mat-form-field>
+        <mat-form-field appearance="fill" color="accent">
+          <mat-label>What you loved the most ?</mat-label>
+          <input matInput [(ngModel)]="statistics.whatLike" />
+        </mat-form-field>
+        <mat-form-field appearance="fill" color="accent">
+          <mat-label>What you liked the least ?</mat-label>
+          <input matInput [(ngModel)]="statistics.whatDoNotLike" />
+        </mat-form-field>
+
+        <div class="example-button-row" style="margin-top:10%">
+          <button mat-raised-button color="accent" (click)="saveStatistics()">Save</button>
+          <button mat-raised-button color="accent" [routerLink]="['/home']">Cancel</button>
+        </div>
+      </mat-card-content>
+    </div>
+  </mat-card>
+</div>-->
+<!--<h1>Counter</h1>
+
+<p>This is a simple example of an Angular component.</p>
+
+<p aria-live="polite">Current count: <strong>{{ currentCount }}</strong></p>
+
+<button class="btn btn-primary" (click)="incrementCounter()">Increment</button>
+
+
+<mdb-card cascade="true" wider="true" reverse="true" class="my-4">-->
+<!--Card image-->
+<!--<div class="view view-cascade overlay waves-light" mdbWavesEffect>
+  <mdb-card-img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"></mdb-card-img>
+  <a>
+    <div class="mask rgba-white-slight"></div>
+  </a>
+</div>-->
+<!--/Card image-->
+<!-- Card content -->
+<!--<mdb-card-body cascade="true" class="text-center">-->
+<!--Title-->
+<!--<mdb-card-title>
+  <h4>
+    <strong>My adventure</strong>
+  </h4>
+</mdb-card-title>
+
+<h5 class="indigo-text">
+  <strong>Photography</strong>
+</h5>
+
+<mdb-card-text>
+  Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem
+  aperiam.
+</mdb-card-text>-->
+<!--Linkedin-->
+<!--<a class="px-2 icons-sm li-ic">
+  <mdb-icon fab icon="linkedin-in"> </mdb-icon>
+</a>-->
+<!--Twitter-->
+<!--<a class="px-2 icons-sm tw-ic">
+  <mdb-icon fab icon="twitter"> </mdb-icon>
+</a>-->
+<!--Dribbble-->
+<!--<a class="px-2 icons-sm fb-ic">
+      <mdb-icon fab icon="facebook-f"> </mdb-icon>
+    </a>
+  </mdb-card-body>
+
+</mdb-card>-->

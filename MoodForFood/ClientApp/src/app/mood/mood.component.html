@@ -1,0 +1,84 @@
+
+<div class="d-flex justify-content-around">
+
+  <div>
+    <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
+      <mdb-carousel-item >
+        <div style="width:290px; height:290px">
+          <img class="d-block w-100" src="assets/bg-for-mood.png" style="opacity:90%">
+          <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+        </div>
+        <div class="carousel-caption" style="height:57%; text-align:left">
+          <div class="example-button-row" style="margin-left:17%; margin-bottom:10%">
+            <button mat-raised-button color="warm" (click)="generateRandomQuote()">Random quote</button>
+          </div>
+        </div>
+      </mdb-carousel-item>
+    </mdb-carousel>
+  </div>
+
+  <div *ngIf="viewQuote == true" style="margin-top:5%">
+    <mat-card class="example-card">
+      <div *ngFor="let quote of quotes">
+        <div *ngIf="quote.quoteID == randomQuoteID">
+          <mat-card-title class="d-flex justify-content-around">Daily quote</mat-card-title>
+          <mat-card-content>
+            <mat-list>
+              <mat-list-item class="d-flex justify-content-around" style="margin-left: 3%">
+                <i style="margin-right:5px; margin-right: 5%; margin-top:5%; margin-bottom:5%">{{ quote.quoteText }}</i>
+              </mat-list-item>
+              <mat-list-item class="d-flex justify-content-end">
+                <p style="color:#69F0AE; margin-right:5px">-> By {{ quote.writer }}</p> 
+              </mat-list-item>
+            </mat-list>
+          </mat-card-content>
+        </div>
+      </div>
+    </mat-card>
+  </div>
+
+</div>
+
+<div style="padding-top:55px;padding-bottom:50px">
+  <div class="d-flex justify-content-center">
+    <h1 style="font-size:3em">Lear more about your mood</h1>
+  </div>
+  <div class="d-flex justify-content-center" style="padding-top:30px">
+    <mat-card class="example-card">
+      <div>
+        <mat-form-field appearance="fill" color="accent">
+          <mat-label>Choose the mood</mat-label>
+          <mat-select disableRipple [(value)]="mood.id">
+            <mat-option *ngFor="let mood of moods" [value]="mood.id">{{ mood.personalMood }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      
+      <div class="d-flex justify-content-around">
+        <div class="example-button-row">
+          <button mat-raised-button color="accent" (click)="showMoodDefinition(mood.id)">Definition</button>
+        </div>
+        <div class="example-button-row">
+          <button mat-raised-button color="accent" (click)="showMoodCuriosity(mood.id)">Curiosity</button>
+        </div>
+      </div>
+
+    </mat-card>
+  </div>
+  
+</div>
+
+<div *ngFor="let mo of moods"  style="margin-bottom: 50px">
+  <mat-card class="example-card" style="background-color:#69F0AE;" *ngIf="mo.id == selectedMoodID">
+      <mat-card class="example-card" >
+        <div >
+          <div *ngIf="selectedMoodAtribute == 'definition'" class="d-flex justify-content-around">
+            Definition for {{ mo.personalMood }} mood is: <i>{{ mo.moodDescription }}</i> 
+          </div>
+          <div *ngIf="selectedMoodAtribute == 'curiosity'" class="d-flex justify-content-around">
+            Did you know that: <i>{{ mo.curiosity }}</i>
+          </div>
+        </div>
+      </mat-card>
+</mat-card>
+</div>

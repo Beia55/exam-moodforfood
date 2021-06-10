@@ -1,0 +1,119 @@
+
+<div *ngIf="viewHoleHomePage == false">
+  <mat-card class="example-card" style="margin: 7%; background-color:#69F0AE">
+    <mat-card class="example-card" style="margin: 3%; padding:7%">
+      <div style="text-align:center; margin-bottom:5%">
+        <div style="font-size: 2em">Your opinion is really important for us !</div>
+        <div style="font-size: 1.5em">Please take 2 minutes to complete a short form</div>
+      </div>
+      <div class="d-flex justify-content-around">
+        <div class="example-button-row">
+          <button mat-raised-button color="accent"  (click)="viewHoleHomePageStatus()" [routerLink]="['/statistics-add']">Complete it now</button>
+        </div>
+        <div class="example-button-row">
+          <button mat-raised-button style="background-color:red" (click)="viewHoleHomePageStatus()">Latter</button>
+        </div>
+      </div>
+    </mat-card>
+  </mat-card>
+</div>
+
+<div *ngIf="viewHoleHomePage == true">
+
+  <mat-card class="example-card" >
+      <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
+        <mdb-carousel-item *ngFor="let heroBanner of heroBanners">
+          <div class="view w-100" style="max-height:400px">
+            <img class="d-block w-100" src="{{ heroBanner.pictureUrl }}" style="opacity:80%">
+            <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+          </div>
+          <div class="carousel-caption" style="height:65%">
+            <h1 class="h1-responsive" style="">Hey, dear !  How are you today?</h1>
+            <p>{{ heroBanner.message }}</p>
+          </div>
+        </mdb-carousel-item>
+      </mdb-carousel>
+  </mat-card>
+
+    <div class="content" style="padding-bottom: 25px; padding-top:25px">
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-lg-3">
+            <mat-card class="example-card" style="display:flex; justify-content:center">
+              <mat-form-field appearance="fill" color="accent">
+                <mat-label>Select your mood</mat-label>
+                <mat-select disableRipple [(value)]="mood.id">
+                  <mat-option *ngFor="let mood of moods" [value]="mood.id">{{ mood.personalMood }}</mat-option>
+                </mat-select>
+              </mat-form-field>
+            </mat-card>
+          </div>
+
+          <div class="col-lg-2">
+            <div>
+              <div *ngFor="let mo of moods">
+                <div *ngIf="mo.id == mood.id">
+                  <button style="margin:5% 5%" mat-raised-button color="accent" (click)="completeCriteriaForRandomMenu(mood.id)" matTooltip="what to eat?" matTooltipPosition="above">
+                    What to <span style="font-size:100%" class="material-icons">restaurant</span> ?
+                  </button>
+                  <button style="margin:5% 5%" mat-raised-button color="accent" (click)="saveSelectedMoodName(mo.personalMood)">Save mood?</button>
+                  <div *ngIf="selectedName != null" style="margin-left:20px">
+                    <button mat-icon-button color="accent" matTooltip="Yes, this mood" matTooltipPosition="below">
+                      <mat-icon aria-hidden="false" aria-label="Example home icon" [routerLink]="['/personal-mood-add',  mo.personalMood]" style="cursor:pointer">thumb_up_alt</mat-icon>
+                    </button>
+                    <button mat-icon-button style="color:red" matTooltip="Yes, but other mood" matTooltipPosition="below">
+                      <mat-icon aria-hidden="false" aria-label="Example home icon" [routerLink]="['/personal-mood-add']" style="cursor:pointer">thumb_down_alt</mat-icon>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7">
+            <mat-card class="example-card" *ngIf="foods && viewTable == true">
+              <div *ngFor="let fd of foods">
+                <div *ngIf="fd.moodID == selectedID">
+                  <div *ngIf="fd.id == randomFoodID">
+                    <div *ngIf="fd.foodForTheMood != null && fd.morning != null && fd.noon != null && fd.evening != null">
+                      <mat-card-header>
+                        <div mat-card-avatar class="example-header-image"><mat-icon color="accent"> fastfood</mat-icon></div>
+                        <mat-card-title>{{ fd.foodForTheMood }}</mat-card-title>
+                      </mat-card-header>
+
+                      <mat-card-content>
+                        <mat-list>
+                          <mat-divider></mat-divider>
+                          <mat-list-item><b style="color:#69F0AE; margin-right:5px">Morning: </b> {{ fd.morning }}</mat-list-item>
+                          <mat-divider></mat-divider>
+                          <mat-list-item> <b style="color:#69F0AE; margin-right:5px">Noon: </b> {{ fd.noon }}</mat-list-item>
+                          <mat-divider></mat-divider>
+                          <mat-list-item><b style="color:#69F0AE; margin-right:5px">Evening: </b> {{ fd.evening }}</mat-list-item>
+                          <mat-divider></mat-divider>
+                        </mat-list>
+                      </mat-card-content>
+
+                      <mat-card-actions>
+                        <div class="example-button-row row">
+                          <div class="col-lg-10">
+                            <p style="font-size:85%; padding:10px; color:#69F0AE">
+                              Would you like to create your own full menu for this mood?
+                              <a style="color:red; font-size:110%" [routerLink]="['/home-add-menu', fd.moodID ]">Click here</a> !
+                            </p>
+                          </div>
+                        </div>
+                      </mat-card-actions>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </mat-card>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>

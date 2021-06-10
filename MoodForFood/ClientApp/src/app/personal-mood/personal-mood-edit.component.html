@@ -1,0 +1,29 @@
+
+<div class="my-container-card" style="padding-bottom:17px">
+  <mat-card class="example-card">
+    <div style="padding:7%">
+      <mat-card-header style="margin-left:15%">
+        <mat-card-title style="color: red; padding-bottom:20%">Edit your mood</mat-card-title>
+      </mat-card-header>
+
+      <mat-card-content style="margin-left:15%">
+        <mat-form-field appearance="fill" color="accent">
+          <mat-label>Select your mood</mat-label>
+          <mat-select disableRipple [(value)]="personalMood.moodName">
+            <mat-option *ngFor="let mood of moods" [value]="mood.personalMood">{{ mood.personalMood }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" color="accent">
+          <mat-label>Mood Reason</mat-label>
+          <input matInput [(ngModel)]="personalMood.moodReason" />
+        </mat-form-field>
+
+        <div class="example-button-row;" style="margin-top:10%">
+          <button mat-raised-button  style="margin-right:3%" color="accent" (click)="saveEditedPersonalMood()">Edit your mood</button>
+          <button mat-raised-button  color="accent" [routerLink]="['/personal-mood']">Back to list</button>
+        </div>
+      </mat-card-content>
+    </div>
+  </mat-card>
+</div>

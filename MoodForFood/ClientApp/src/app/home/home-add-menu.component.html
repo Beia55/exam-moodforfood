@@ -1,0 +1,47 @@
+
+<div class="my-container-card">
+  <mat-card class="example-card" style="margin-bottom:20px">
+    <div style="padding:7%">
+      <mat-card-header style="margin-left:15%">
+        <mat-card-title style="color: red; margin-bottom: 20%">Create your menu</mat-card-title>
+      </mat-card-header>
+
+      <mat-card-content style="margin-left:15%">
+        <!--<mat-form-field appearance="fill" >
+          <mat-label>Mood ID</mat-label>
+          <input matInput [(ngModel)]="food.moodID" [readonly]="true"/>
+        </mat-form-field>-->
+
+        <mat-form-field appearance="fill" color="accent">
+          <mat-label>What you need ?</mat-label>
+          <input matInput [(ngModel)]="food.foodForTheMood" placeholder="ex. You need something..."/>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" color="accent">
+          <mat-label>Morning</mat-label>
+          <input matInput [(ngModel)]="food.morning" />
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" color="accent">
+          <mat-label>Noon</mat-label>
+          <input matInput [(ngModel)]="food.noon" />
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" color="accent">
+          <mat-label>Evening</mat-label>
+          <input matInput [(ngModel)]="food.evening" />
+        </mat-form-field>
+
+        <div class="example-button-row" style="margin-top:10%">
+          <button mat-raised-button color="accent" (click)="saveInPersonalMenu()">Save menu</button>
+          <button mat-icon-button color="accent" matTooltip="back home">
+            <mat-icon aria-hidden="false" aria-label="Example home icon" [routerLink]="['/']" style="cursor:pointer">home</mat-icon>
+          </button>
+          <button mat-icon-button color="accent" matTooltip="see personal menu">
+            <mat-icon aria-hidden="false" aria-label="Example home icon" [routerLink]="['/menu-list']" style="cursor:pointer">menu_book</mat-icon>
+          </button>
+        </div>
+      </mat-card-content>
+    </div>
+  </mat-card>
+</div>

@@ -16,5 +16,6 @@ export interface Food {
   Morning: string;
   Noon: string;
   Evening: string;
+  personalOrDefault: number;
 }
 

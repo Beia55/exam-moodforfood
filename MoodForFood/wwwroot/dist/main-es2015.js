@@ -166,6 +166,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "8V3Q":
+/*!*************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/menu/menu-read.component.html ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\r\n<div class=\"my-container-card\" style=\"padding-bottom:17px\">\r\n  <mat-card class=\"example-card\" style=\"width:100%\">\r\n\r\n    <h1 style=\"color: red; margin-left: 28%\">Read Menu</h1>\r\n\r\n    <div style=\"padding:7%\">\r\n\r\n      <mat-divider></mat-divider>\r\n      <mat-card-header style=\"margin-left:20%\">\r\n        <mat-card-title>Mood For Food:</mat-card-title>\r\n        <mat-card-subtitle>{{ food.foodForTheMood }}</mat-card-subtitle>\r\n      </mat-card-header>\r\n      <mat-divider></mat-divider>\r\n\r\n      <mat-card-header style=\"margin-left:20%\">\r\n        <mat-card-title>Morning:</mat-card-title>\r\n        <mat-card-subtitle>{{ food.morning }}</mat-card-subtitle>\r\n      </mat-card-header>\r\n      <mat-divider></mat-divider>\r\n\r\n      <mat-card-header style=\"margin-left:20%\">\r\n        <mat-card-title>Noon:</mat-card-title>\r\n        <mat-card-subtitle>{{ food.noon}}</mat-card-subtitle>\r\n      </mat-card-header>\r\n      <mat-divider></mat-divider>\r\n\r\n      <mat-card-header style=\"margin-left:20%\">\r\n        <mat-card-title>Evening:</mat-card-title>\r\n        <mat-card-subtitle>{{ food.evening}}</mat-card-subtitle>\r\n      </mat-card-header>\r\n      <mat-divider></mat-divider>\r\n\r\n      <mat-card-content style=\"margin-left:25%; margin-top:10%; margin-bottom: -10px\">\r\n        <button mat-raised-button color=\"accent\" [routerLink]=\"['/menu']\">Back to list</button>\r\n      </mat-card-content>\r\n    </div>\r\n  </mat-card>\r\n</div>\r\n");
+
+/***/ }),
+
 /***/ "9vUh":
 /*!****************************************!*\
   !*** ./src/app/home/home.component.ts ***!
@@ -315,6 +328,19 @@ const environment = {
 
 /***/ }),
 
+/***/ "DF8N":
+/*!*****************************************!*\
+  !*** ./src/app/menu/menu.component.css ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("body {\r\n}\r\n\r\ntable {\r\n  width: 100%;\r\n}\r\n\r\nsection {\r\n  display: table;\r\n}\r\n\r\n.example-label {\r\n  display: table-cell;\r\n  font-size: 14px;\r\n  margin-left: 8px;\r\n  min-width: 120px;\r\n}\r\n\r\n.example-button-row .mat-button-base {\r\n  margin: 5px 5px 5px 0;\r\n}\r\n\r\n.example-flex-container {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  flex-wrap: wrap;\r\n}\r\n\r\n.example-card {\r\n  max-width: 400px;\r\n}\r\n\r\n.example-header-image {\r\n  background-size: cover;\r\n}\r\n\r\n.example-button-container {\r\n  display: flex;\r\n  justify-content: center;\r\n  width: 100px;\r\n}\r\n\r\n.example-form {\r\n  min-width: 150px;\r\n  max-width: 500px;\r\n  width: 100%;\r\n}\r\n\r\n.example-full-width {\r\n  width: 100%;\r\n}\r\n\r\n.example-button-row {\r\n  display: flex;\r\n  justify-content: space-around;\r\n  width: auto;\r\n}\r\n\r\n.example-full-width {\r\n  width: 75%;\r\n}\r\n\r\n.my-container-card {\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1lbnUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUNBOztBQUVBO0VBQ0UsV0FBVztBQUNiOztBQUVBO0VBQ0UsY0FBYztBQUNoQjs7QUFFQTtFQUNFLG1CQUFtQjtFQUNuQixlQUFlO0VBQ2YsZ0JBQWdCO0VBQ2hCLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLHFCQUFxQjtBQUN2Qjs7QUFFQTtFQUNFLGFBQWE7RUFDYiw4QkFBOEI7RUFDOUIsZUFBZTtBQUNqQjs7QUFFQTtFQUNFLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLHNCQUFzQjtBQUN4Qjs7QUFFQTtFQUNFLGFBQWE7RUFDYix1QkFBdUI7RUFDdkIsWUFBWTtBQUNkOztBQUVBO0VBQ0UsZ0JBQWdCO0VBQ2hCLGdCQUFnQjtFQUNoQixXQUFXO0FBQ2I7O0FBRUE7RUFDRSxXQUFXO0FBQ2I7O0FBRUE7RUFDRSxhQUFhO0VBQ2IsNkJBQTZCO0VBQzdCLFdBQVc7QUFDYjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFFQTtFQUNFLGFBQWE7RUFDYix1QkFBdUI7QUFDekIiLCJmaWxlIjoibWVudS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XHJcbn1cclxuXHJcbnRhYmxlIHtcclxuICB3aWR0aDogMTAwJTtcclxufVxyXG5cclxuc2VjdGlvbiB7XHJcbiAgZGlzcGxheTogdGFibGU7XHJcbn1cclxuXHJcbi5leGFtcGxlLWxhYmVsIHtcclxuICBkaXNwbGF5OiB0YWJsZS1jZWxsO1xyXG4gIGZvbnQtc2l6ZTogMTRweDtcclxuICBtYXJnaW4tbGVmdDogOHB4O1xyXG4gIG1pbi13aWR0aDogMTIwcHg7XHJcbn1cclxuXHJcbi5leGFtcGxlLWJ1dHRvbi1yb3cgLm1hdC1idXR0b24tYmFzZSB7XHJcbiAgbWFyZ2luOiA1cHggNXB4IDVweCAwO1xyXG59XHJcblxyXG4uZXhhbXBsZS1mbGV4LWNvbnRhaW5lciB7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcbiAgZmxleC13cmFwOiB3cmFwO1xyXG59XHJcblxyXG4uZXhhbXBsZS1jYXJkIHtcclxuICBtYXgtd2lkdGg6IDQwMHB4O1xyXG59XHJcblxyXG4uZXhhbXBsZS1oZWFkZXItaW1hZ2Uge1xyXG4gIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbn1cclxuXHJcbi5leGFtcGxlLWJ1dHRvbi1jb250YWluZXIge1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgd2lkdGg6IDEwMHB4O1xyXG59XHJcblxyXG4uZXhhbXBsZS1mb3JtIHtcclxuICBtaW4td2lkdGg6IDE1MHB4O1xyXG4gIG1heC13aWR0aDogNTAwcHg7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbn1cclxuXHJcbi5leGFtcGxlLWZ1bGwtd2lkdGgge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG59XHJcblxyXG4uZXhhbXBsZS1idXR0b24tcm93IHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGp1c3RpZnktY29udGVudDogc3BhY2UtYXJvdW5kO1xyXG4gIHdpZHRoOiBhdXRvO1xyXG59XHJcblxyXG4uZXhhbXBsZS1mdWxsLXdpZHRoIHtcclxuICB3aWR0aDogNzUlO1xyXG59XHJcblxyXG4ubXktY29udGFpbmVyLWNhcmQge1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbn1cclxuIl19 */");
+
+/***/ }),
+
 /***/ "FgSU":
 /*!**************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/personal-mood/personal-mood.component.html ***!
@@ -337,64 +363,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\r\n<div *ngIf=\"viewHoleHomePage == false\">\r\n  <mat-card class=\"example-card\" style=\"margin: 7%; background-color:#69F0AE\">\r\n    <mat-card class=\"example-card\" style=\"margin: 3%; padding:7%\">\r\n      <div style=\"text-align:center; margin-bottom:5%\">\r\n        <div style=\"font-size: 2em\">Your opinion is really important for us !</div>\r\n        <div style=\"font-size: 1.5em\">Please take 2 minutes to complete a short form</div>\r\n      </div>\r\n      <div class=\"d-flex justify-content-around\">\r\n        <div class=\"example-button-row\">\r\n          <button mat-raised-button color=\"accent\"  (click)=\"viewHoleHomePageStatus()\" [routerLink]=\"['/statistics-add']\">Complete it now</button>\r\n        </div>\r\n        <div class=\"example-button-row\">\r\n          <button mat-raised-button style=\"background-color:red\" (click)=\"viewHoleHomePageStatus()\">Latter</button>\r\n        </div>\r\n      </div>\r\n    </mat-card>\r\n  </mat-card>\r\n</div>\r\n\r\n<div *ngIf=\"viewHoleHomePage == true\">\r\n\r\n  <mat-card class=\"example-card\" >\r\n      <mdb-carousel class=\"carousel slide carousel-fade\" [animation]=\"'fade'\">\r\n        <mdb-carousel-item *ngFor=\"let heroBanner of heroBanners\">\r\n          <div class=\"view w-100\" style=\"max-height:400px\">\r\n            <img class=\"d-block w-100\" src=\"{{ heroBanner.pictureUrl }}\" style=\"opacity:80%\">\r\n            <div class=\"mask rgba-black-light waves-light\" mdbWavesEffect></div>\r\n          </div>\r\n          <div class=\"carousel-caption\" style=\"height:65%\">\r\n            <h1 class=\"h1-responsive\" style=\"\">Hey, dear !  How are you today?</h1>\r\n            <p>{{ heroBanner.message }}</p>\r\n          </div>\r\n        </mdb-carousel-item>\r\n      </mdb-carousel>\r\n  </mat-card>\r\n\r\n    <div class=\"content\" style=\"padding-bottom: 25px; padding-top:25px\">\r\n      <div class=\"container-fluid\">\r\n        <div class=\"row\">\r\n\r\n          <div class=\"col-lg-3\">\r\n            <mat-card class=\"example-card\" style=\"display:flex; justify-content:center\">\r\n              <mat-form-field appearance=\"fill\" color=\"accent\">\r\n                <mat-label>Select your mood</mat-label>\r\n                <mat-select disableRipple [(value)]=\"mood.id\">\r\n                  <mat-option *ngFor=\"let mood of moods\" [value]=\"mood.id\">{{ mood.personalMood }}</mat-option>\r\n                </mat-select>\r\n              </mat-form-field>\r\n            </mat-card>\r\n          </div>\r\n\r\n          <div class=\"col-lg-2\">\r\n            <div>\r\n              <div *ngFor=\"let mo of moods\">\r\n                <div *ngIf=\"mo.id == mood.id\">\r\n                  <button style=\"margin:5% 5%\" mat-raised-button color=\"accent\" (click)=\"completeCriteriaForRandomMenu(mood.id)\" matTooltip=\"what to eat?\" matTooltipPosition=\"above\">\r\n                    What to <span style=\"font-size:100%\" class=\"material-icons\">restaurant</span> ?\r\n                  </button>\r\n                  <button style=\"margin:5% 5%\" mat-raised-button color=\"accent\" (click)=\"saveSelectedMoodName(mo.personalMood)\">Save mood?</button>\r\n                  <div *ngIf=\"selectedName != null\" style=\"margin-left:20px\">\r\n                    <button mat-icon-button color=\"accent\" matTooltip=\"Yes, this mood\" matTooltipPosition=\"below\">\r\n                      <mat-icon aria-hidden=\"false\" aria-label=\"Example home icon\" [routerLink]=\"['/personal-mood-add',  mo.personalMood]\" style=\"cursor:pointer\">thumb_up_alt</mat-icon>\r\n                    </button>\r\n                    <button mat-icon-button style=\"color:red\" matTooltip=\"Yes, but other mood\" matTooltipPosition=\"below\">\r\n                      <mat-icon aria-hidden=\"false\" aria-label=\"Example home icon\" [routerLink]=\"['/personal-mood-add']\" style=\"cursor:pointer\">thumb_down_alt</mat-icon>\r\n                    </button>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n\r\n          </div>\r\n\r\n          <div class=\"col-lg-7\">\r\n            <mat-card class=\"example-card\" *ngIf=\"foods && viewTable == true\">\r\n              <div *ngFor=\"let fd of foods\">\r\n                <div *ngIf=\"fd.moodID == selectedID\">\r\n                  <div *ngIf=\"fd.id == randomFoodID\">\r\n                    <div *ngIf=\"fd.foodForTheMood != null && fd.morning != null && fd.noon != null && fd.evening != null\">\r\n                      <mat-card-header>\r\n                        <div mat-card-avatar class=\"example-header-image\"><mat-icon color=\"accent\"> fastfood</mat-icon></div>\r\n                        <mat-card-title>{{ fd.foodForTheMood }}</mat-card-title>\r\n                      </mat-card-header>\r\n\r\n                      <mat-card-content>\r\n                        <mat-list>\r\n                          <mat-divider></mat-divider>\r\n                          <mat-list-item><b style=\"color:#69F0AE; margin-right:5px\">Morning: </b> {{ fd.morning }}</mat-list-item>\r\n                          <mat-divider></mat-divider>\r\n                          <mat-list-item> <b style=\"color:#69F0AE; margin-right:5px\">Noon: </b> {{ fd.noon }}</mat-list-item>\r\n                          <mat-divider></mat-divider>\r\n                          <mat-list-item><b style=\"color:#69F0AE; margin-right:5px\">Evening: </b> {{ fd.evening }}</mat-list-item>\r\n                          <mat-divider></mat-divider>\r\n                        </mat-list>\r\n                      </mat-card-content>\r\n\r\n                      <mat-card-actions>\r\n                        <div class=\"example-button-row row\">\r\n                          <div class=\"col-lg-10\">\r\n                            <p style=\"font-size:85%; padding:10px; color:#69F0AE\">\r\n                              Would you like to create your own full menu for this mood?\r\n                              <a style=\"color:red; font-size:110%\" [routerLink]=\"['/home-add-menu', fd.moodID ]\">Click here</a> !\r\n                            </p>\r\n                          </div>\r\n                        </div>\r\n                      </mat-card-actions>\r\n                    </div>\r\n                  </div>\r\n\r\n                </div>\r\n              </div>\r\n            </mat-card>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n</div>\r\n");
-
-/***/ }),
-
-/***/ "HQqs":
-/*!*********************************************!*\
-  !*** ./src/app/home/menu-list.component.ts ***!
-  \*********************************************/
-/*! exports provided: MenuListComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuListComponent", function() { return MenuListComponent; });
-/* harmony import */ var _personal_mood_personal_mood_component_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../personal-mood/personal-mood.component.css */ "U+pj");
-/* harmony import */ var _raw_loader_menu_list_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! raw-loader!./menu-list.component.html */ "Nf59");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "tk/3");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-let MenuListComponent = class MenuListComponent {
-    constructor(http1, baseUrl) {
-        this.http1 = http1;
-        this.baseUrl = baseUrl;
-        this.columnsToDisplay = ['foodForTheMood', 'morning', 'noon', 'evening'];
-        this.loadPersonalMood();
-    }
-    loadPersonalMood() {
-        this.http1.get(this.baseUrl + 'api/foods').subscribe(result => {
-            this.foods = result;
-        }, error => console.error(error));
-    }
-};
-MenuListComponent.ctorParameters = () => [
-    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"] },
-    { type: String, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Inject"], args: ['BASE_URL',] }] }
-];
-MenuListComponent = __decorate([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: 'app-menu-list',
-        template: _raw_loader_menu_list_component_html__WEBPACK_IMPORTED_MODULE_1__["default"],
-        styles: [_personal_mood_personal_mood_component_css__WEBPACK_IMPORTED_MODULE_0__["default"]]
-    }),
-    __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"], String])
-], MenuListComponent);
-
-
+/* harmony default export */ __webpack_exports__["default"] = ("\r\n<div *ngIf=\"viewHoleHomePage == false\">\r\n  <mat-card class=\"example-card\" style=\"margin: 7%; background-color:#69F0AE\">\r\n    <mat-card class=\"example-card\" style=\"margin: 3%; padding:7%\">\r\n      <div style=\"text-align:center; margin-bottom:5%\">\r\n        <div style=\"font-size: 2em\">Your opinion is really important for us !</div>\r\n        <div style=\"font-size: 1.5em\">Please take 2 minutes to complete a short form</div>\r\n      </div>\r\n      <div class=\"d-flex justify-content-around\">\r\n        <div class=\"example-button-row\">\r\n          <button mat-raised-button color=\"accent\"  (click)=\"viewHoleHomePageStatus()\" [routerLink]=\"['/statistics-add']\">Complete it now</button>\r\n        </div>\r\n        <div class=\"example-button-row\">\r\n          <button mat-raised-button style=\"background-color:red\" (click)=\"viewHoleHomePageStatus()\">Latter</button>\r\n        </div>\r\n      </div>\r\n    </mat-card>\r\n  </mat-card>\r\n</div>\r\n\r\n<div *ngIf=\"viewHoleHomePage == true\">\r\n\r\n  <mat-card class=\"example-card\" >\r\n      <mdb-carousel class=\"carousel slide carousel-fade\" [animation]=\"'fade'\">\r\n        <mdb-carousel-item *ngFor=\"let heroBanner of heroBanners\">\r\n          <div class=\"view w-100\" style=\"max-height:400px\">\r\n            <img class=\"d-block w-100\" src=\"{{ heroBanner.pictureUrl }}\" style=\"opacity:80%\">\r\n            <div class=\"mask rgba-black-light waves-light\" mdbWavesEffect></div>\r\n          </div>\r\n          <div class=\"carousel-caption\" style=\"height:65%\">\r\n            <h1 class=\"h1-responsive\" style=\"\">Hey, dear !  How are you today?</h1>\r\n            <p>{{ heroBanner.message }}</p>\r\n          </div>\r\n        </mdb-carousel-item>\r\n      </mdb-carousel>\r\n  </mat-card>\r\n\r\n    <div class=\"content\" style=\"padding-bottom: 25px; padding-top:55px\">\r\n      <div class=\"container-fluid\">\r\n        <div class=\"row\">\r\n\r\n          <div class=\"col-lg-3\">\r\n            <mat-card class=\"example-card\" style=\"display:flex; justify-content:center\">\r\n              <mat-form-field appearance=\"fill\" color=\"accent\">\r\n                <mat-label>Select your mood</mat-label>\r\n                <mat-select disableRipple [(value)]=\"mood.id\">\r\n                  <mat-option *ngFor=\"let mood of moods\" [value]=\"mood.id\">{{ mood.personalMood }}</mat-option>\r\n                </mat-select>\r\n              </mat-form-field>\r\n            </mat-card>\r\n          </div>\r\n\r\n          <div class=\"col-lg-2\">\r\n            <div>\r\n              <div *ngFor=\"let mo of moods\">\r\n                <div *ngIf=\"mo.id == mood.id\">\r\n                  <button style=\"margin:5% 5%\" mat-raised-button color=\"accent\" (click)=\"completeCriteriaForRandomMenu(mood.id)\" matTooltip=\"what to eat?\" matTooltipPosition=\"above\">\r\n                    What to <span style=\"font-size:100%\" class=\"material-icons\">restaurant</span> ?\r\n                  </button>\r\n                  <button style=\"margin:5% 5%\" mat-raised-button color=\"accent\" (click)=\"saveSelectedMoodName(mo.personalMood)\">Save mood?</button>\r\n                  <div *ngIf=\"selectedName != null\" style=\"margin-left:20px\">\r\n                    <button mat-icon-button color=\"accent\" matTooltip=\"Yes, this mood\" matTooltipPosition=\"below\">\r\n                      <mat-icon aria-hidden=\"false\" aria-label=\"Example home icon\" [routerLink]=\"['/personal-mood-add',  mo.personalMood]\" style=\"cursor:pointer\">thumb_up_alt</mat-icon>\r\n                    </button>\r\n                    <button mat-icon-button style=\"color:red\" matTooltip=\"Yes, but other mood\" matTooltipPosition=\"below\">\r\n                      <mat-icon aria-hidden=\"false\" aria-label=\"Example home icon\" [routerLink]=\"['/personal-mood-add']\" style=\"cursor:pointer\">thumb_down_alt</mat-icon>\r\n                    </button>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n\r\n          </div>\r\n\r\n          <div class=\"col-lg-7\">\r\n            <mat-card class=\"example-card\" *ngIf=\"foods && viewTable == true\">\r\n              <div *ngFor=\"let fd of foods\">\r\n                <div *ngIf=\"fd.moodID == selectedID\">\r\n                  <div *ngIf=\"fd.id == randomFoodID\">\r\n                    <div *ngIf=\"fd.foodForTheMood != null && fd.morning != null && fd.noon != null && fd.evening != null\">\r\n                      <mat-card-header>\r\n                        <div mat-card-avatar class=\"example-header-image\"><mat-icon color=\"accent\"> fastfood</mat-icon></div>\r\n                        <mat-card-title>{{ fd.foodForTheMood }}</mat-card-title>\r\n                      </mat-card-header>\r\n\r\n                      <mat-card-content>\r\n                        <mat-list>\r\n                          <mat-divider></mat-divider>\r\n                          <mat-list-item><b style=\"color:#69F0AE; margin-right:5px\">Morning: </b> {{ fd.morning }}</mat-list-item>\r\n                          <mat-divider></mat-divider>\r\n                          <mat-list-item> <b style=\"color:#69F0AE; margin-right:5px\">Noon: </b> {{ fd.noon }}</mat-list-item>\r\n                          <mat-divider></mat-divider>\r\n                          <mat-list-item><b style=\"color:#69F0AE; margin-right:5px\">Evening: </b> {{ fd.evening }}</mat-list-item>\r\n                          <mat-divider></mat-divider>\r\n                        </mat-list>\r\n                      </mat-card-content>\r\n\r\n                      <mat-card-actions>\r\n                        <div class=\"example-button-row row\">\r\n                          <div class=\"col-lg-10\">\r\n                            <p style=\"font-size:85%; padding:10px; color:#69F0AE\">\r\n                              Would you like to create your own full menu for this mood?\r\n                              <a style=\"color:red; font-size:110%\" [routerLink]=\"['/home-add-menu', fd.moodID ]\">Click here</a> !\r\n                            </p>\r\n                          </div>\r\n                        </div>\r\n                      </mat-card-actions>\r\n                    </div>\r\n                  </div>\r\n\r\n                </div>\r\n              </div>\r\n            </mat-card>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n</div>\r\n");
 
 /***/ }),
 
@@ -595,19 +564,6 @@ StatisticsAddComponent = __decorate([
 ], StatisticsAddComponent);
 
 
-
-/***/ }),
-
-/***/ "Nf59":
-/*!*************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/home/menu-list.component.html ***!
-  \*************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\r\n<!--<div class=\"example-button-row\">\r\n  <button mat-raised-button color=\"accent\" [routerLink]=\"['/personal-mood-add']\">Add extra mood for today</button>\r\n</div>-->\r\n\r\n<table mat-table [dataSource]=\"foods\" class=\"mat-elevation-z8\">\r\n  <ng-container matColumnDef=\"foodForTheMood\">\r\n    <th mat-header-cell *matHeaderCellDef style=\"width:25%\">What Need</th>\r\n    <td mat-cell *matCellDef=\"let food\"> {{ food.foodForTheMood }} </td>\r\n  </ng-container>\r\n\r\n  <ng-container matColumnDef=\"morning\">\r\n    <th mat-header-cell *matHeaderCellDef style=\"width:25%\">Morning</th>\r\n    <td mat-cell *matCellDef=\"let food\"> {{ food.morning }} </td>\r\n  </ng-container>\r\n\r\n  <ng-container matColumnDef=\"noon\">\r\n    <th mat-header-cell *matHeaderCellDef style=\"width:35%\">Noon</th>\r\n    <td mat-cell *matCellDef=\"let food\"> {{ food.noon }} </td>\r\n  </ng-container>\r\n\r\n  <ng-container matColumnDef=\"evening\">\r\n    <th mat-header-cell *matHeaderCellDef style=\"width:35%\">Evening</th>\r\n    <td mat-cell *matCellDef=\"let food\"> {{ food.evening }} </td>\r\n  </ng-container>\r\n\r\n  <!--<ng-container matColumnDef=\"actions\">\r\n    <th mat-header-cell *matHeaderCellDef style=\"width:15%\">Actions</th>\r\n    <td mat-cell *matCellDef=\"let personalMood\">\r\n      <section>\r\n        <div class=\"example-button-row\">\r\n          <button mat-icon-button color=\"accent\" aria-label=\"Example icon button with a home icon\" matTooltip=\"Edit\">\r\n            <mat-icon aria-hidden=\"false\" aria-label=\"Example home icon\" [routerLink]=\"['/personal-mood-edit',personalMood.id]\" style=\"cursor:pointer\">edit</mat-icon>\r\n          </button>\r\n          <button mat-icon-button color=\"accent\" aria-label=\"Example icon button with a home icon\" matTooltip=\"Info\">\r\n            <mat-icon aria-hidden=\"false\" aria-label=\"Example home icon\" [routerLink]=\"['/personal-mood-read',personalMood.id]\" style=\"cursor:pointer\">info</mat-icon>\r\n          </button>\r\n          <button mat-icon-button color=\"accent\" aria-label=\"Example icon button with a home icon\" matTooltip=\"Delete\">\r\n            <mat-icon aria-hidden=\"false\" aria-label=\"Example home icon\" (click)=\"deletePersonalMood(personalMood)\" style=\"cursor:pointer\">delete</mat-icon>\r\n          </button>\r\n        </div>\r\n      </section>\r\n    </td>\r\n  </ng-container>-->\r\n\r\n  <tr mat-header-row *matHeaderRowDef=\"columnsToDisplay \"></tr>\r\n  <tr mat-row *matRowDef=\"let myRowData; columns: columnsToDisplay ;\"></tr>\r\n</table>\r\n");
 
 /***/ }),
 
@@ -836,6 +792,77 @@ AppComponent = __decorate([
 
 /***/ }),
 
+/***/ "TGkX":
+/*!****************************************!*\
+  !*** ./src/app/menu/menu.component.ts ***!
+  \****************************************/
+/*! exports provided: MenuComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuComponent", function() { return MenuComponent; });
+/* harmony import */ var _raw_loader_menu_component_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! raw-loader!./menu.component.html */ "sxhZ");
+/* harmony import */ var _menu_component_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu.component.css */ "DF8N");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _mood_mood_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../mood/mood.service */ "HTmu");
+/* harmony import */ var _menu_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu.service */ "dnud");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+let MenuComponent = class MenuComponent {
+    constructor(menuService, moodService) {
+        this.menuService = menuService;
+        this.moodService = moodService;
+        this.columnsToDisplay = ['moodID', 'foodForTheMood', 'morning', 'noon', 'evening', 'action'];
+        this.loadPersonalMood();
+    }
+    ngOnInit() {
+    }
+    loadPersonalMood() {
+        this.menuService.loadFood().subscribe(result => {
+            this.foods = result;
+        }, error => console.error(error));
+    }
+    loadMood() {
+        this.moodService.loadMood().subscribe(result => {
+            this.moods = result;
+        }, error => console.error(error));
+    }
+    deleteFood(food) {
+        this.menuService.deleteFood(food).subscribe(result => {
+            this.loadPersonalMood();
+        }, error => console.error(error));
+    }
+};
+MenuComponent.ctorParameters = () => [
+    { type: _menu_service__WEBPACK_IMPORTED_MODULE_4__["MenuService"] },
+    { type: _mood_mood_service__WEBPACK_IMPORTED_MODULE_3__["MoodService"] }
+];
+MenuComponent = __decorate([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
+        selector: 'app-menu',
+        template: _raw_loader_menu_component_html__WEBPACK_IMPORTED_MODULE_0__["default"],
+        styles: [_menu_component_css__WEBPACK_IMPORTED_MODULE_1__["default"]]
+    }),
+    __metadata("design:paramtypes", [_menu_service__WEBPACK_IMPORTED_MODULE_4__["MenuService"], _mood_mood_service__WEBPACK_IMPORTED_MODULE_3__["MoodService"]])
+], MenuComponent);
+
+
+
+/***/ }),
+
 /***/ "U+pj":
 /*!***********************************************************!*\
   !*** ./src/app/personal-mood/personal-mood.component.css ***!
@@ -871,7 +898,75 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\r\n<div class=\"my-container-card\">\r\n  <mat-card class=\"example-card\" style=\"margin-bottom:20px\">\r\n    <div style=\"padding:7%\">\r\n      <mat-card-header style=\"margin-left:15%\">\r\n        <mat-card-title style=\"color: red; margin-bottom: 20%\">Create your menu</mat-card-title>\r\n      </mat-card-header>\r\n\r\n      <mat-card-content style=\"margin-left:15%\">\r\n        <!--<mat-form-field appearance=\"fill\" >\r\n          <mat-label>Mood ID</mat-label>\r\n          <input matInput [(ngModel)]=\"food.moodID\" [readonly]=\"true\"/>\r\n        </mat-form-field>-->\r\n\r\n        <mat-form-field appearance=\"fill\" color=\"accent\">\r\n          <mat-label>What you need ?</mat-label>\r\n          <input matInput [(ngModel)]=\"food.foodForTheMood\" placeholder=\"ex. You need something...\"/>\r\n        </mat-form-field>\r\n\r\n        <mat-form-field appearance=\"fill\" color=\"accent\">\r\n          <mat-label>Morning</mat-label>\r\n          <input matInput [(ngModel)]=\"food.morning\" />\r\n        </mat-form-field>\r\n\r\n        <mat-form-field appearance=\"fill\" color=\"accent\">\r\n          <mat-label>Noon</mat-label>\r\n          <input matInput [(ngModel)]=\"food.noon\" />\r\n        </mat-form-field>\r\n\r\n        <mat-form-field appearance=\"fill\" color=\"accent\">\r\n          <mat-label>Evening</mat-label>\r\n          <input matInput [(ngModel)]=\"food.evening\" />\r\n        </mat-form-field>\r\n\r\n        <div class=\"example-button-row\" style=\"margin-top:10%\">\r\n          <button mat-raised-button color=\"accent\" (click)=\"saveInPersonalMenu()\">Save menu</button>\r\n          <button mat-icon-button color=\"accent\" matTooltip=\"back home\">\r\n            <mat-icon aria-hidden=\"false\" aria-label=\"Example home icon\" [routerLink]=\"['/']\" style=\"cursor:pointer\">home</mat-icon>\r\n          </button>\r\n          <button mat-icon-button color=\"accent\" matTooltip=\"see personal menu\">\r\n            <mat-icon aria-hidden=\"false\" aria-label=\"Example home icon\" [routerLink]=\"['/menu-list']\" style=\"cursor:pointer\">menu_book</mat-icon>\r\n          </button>\r\n        </div>\r\n      </mat-card-content>\r\n    </div>\r\n  </mat-card>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("\r\n<div class=\"my-container-card\">\r\n  <mat-card class=\"example-card\" style=\"margin-bottom:20px\">\r\n    <div style=\"padding:7%\">\r\n      <mat-card-header style=\"margin-left:15%\">\r\n        <mat-card-title style=\"color: red; margin-bottom: 20%\">Create your menu</mat-card-title>\r\n      </mat-card-header>\r\n\r\n      <mat-card-content style=\"margin-left:15%\">\r\n        <!--<mat-form-field appearance=\"fill\" >\r\n          <mat-label>Mood ID</mat-label>\r\n          <input matInput [(ngModel)]=\"food.moodID\" [readonly]=\"true\"/>\r\n        </mat-form-field>-->\r\n\r\n        <mat-form-field appearance=\"fill\" color=\"accent\">\r\n          <mat-label>What you need ?</mat-label>\r\n          <input matInput [(ngModel)]=\"food.foodForTheMood\" placeholder=\"ex. You need something...\"/>\r\n        </mat-form-field>\r\n\r\n        <mat-form-field appearance=\"fill\" color=\"accent\">\r\n          <mat-label>Morning</mat-label>\r\n          <input matInput [(ngModel)]=\"food.morning\" />\r\n        </mat-form-field>\r\n\r\n        <mat-form-field appearance=\"fill\" color=\"accent\">\r\n          <mat-label>Noon</mat-label>\r\n          <input matInput [(ngModel)]=\"food.noon\" />\r\n        </mat-form-field>\r\n\r\n        <mat-form-field appearance=\"fill\" color=\"accent\">\r\n          <mat-label>Evening</mat-label>\r\n          <input matInput [(ngModel)]=\"food.evening\" />\r\n        </mat-form-field>\r\n\r\n        <div class=\"example-button-row\" style=\"margin-top:10%\">\r\n          <button mat-raised-button color=\"accent\" (click)=\"saveInPersonalMenu()\">Save menu</button>\r\n          <button mat-icon-button color=\"accent\" matTooltip=\"back home\">\r\n            <mat-icon aria-hidden=\"false\" aria-label=\"Example home icon\" [routerLink]=\"['/']\" style=\"cursor:pointer\">home</mat-icon>\r\n          </button>\r\n          <button mat-icon-button color=\"accent\" matTooltip=\"see personal menu\">\r\n            <mat-icon aria-hidden=\"false\" aria-label=\"Example home icon\" [routerLink]=\"['/menu']\" style=\"cursor:pointer\">menu_book</mat-icon>\r\n          </button>\r\n        </div>\r\n      </mat-card-content>\r\n    </div>\r\n  </mat-card>\r\n</div>\r\n");
+
+/***/ }),
+
+/***/ "XR8T":
+/*!*********************************************!*\
+  !*** ./src/app/menu/menu-read.component.ts ***!
+  \*********************************************/
+/*! exports provided: MenuReadComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuReadComponent", function() { return MenuReadComponent; });
+/* harmony import */ var _raw_loader_menu_read_component_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! raw-loader!./menu-read.component.html */ "8V3Q");
+/* harmony import */ var _menu_component_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu.component.css */ "DF8N");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "tyNb");
+/* harmony import */ var _menu_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu.service */ "dnud");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+let MenuReadComponent = class MenuReadComponent {
+    constructor(menuService, router, activateRouter) {
+        this.menuService = menuService;
+        this.router = router;
+        this.activateRouter = activateRouter;
+        this.food = {};
+    }
+    ngOnInit() {
+        this.activateRouter.params.subscribe(param => {
+            this.id = param.id;
+            this.loadFoodByID();
+        });
+    }
+    loadFoodByID() {
+        this.menuService.loadFoodByID(this.id).subscribe(result => {
+            this.food = result;
+        }, error => console.error(error));
+    }
+};
+MenuReadComponent.ctorParameters = () => [
+    { type: _menu_service__WEBPACK_IMPORTED_MODULE_4__["MenuService"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"] }
+];
+MenuReadComponent = __decorate([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
+        selector: 'app-menu-read',
+        template: _raw_loader_menu_read_component_html__WEBPACK_IMPORTED_MODULE_0__["default"],
+        styles: [_menu_component_css__WEBPACK_IMPORTED_MODULE_1__["default"]]
+    }),
+    __metadata("design:paramtypes", [_menu_service__WEBPACK_IMPORTED_MODULE_4__["MenuService"],
+        _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"],
+        _angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"]])
+], MenuReadComponent);
+
+
 
 /***/ }),
 
@@ -884,7 +979,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<header>\r\n  <nav\r\n    class=\"navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3\"\r\n  >\r\n    <div class=\"container\">\r\n    <a class=\"navbar-brand\" [routerLink]=\"['/']\"><img style=\"width:85px\" src=\"assets/logo.png\"></a>\r\n      <button\r\n        class=\"navbar-toggler\"\r\n        type=\"button\"\r\n        data-toggle=\"collapse\"\r\n        data-target=\".navbar-collapse\"\r\n        aria-label=\"Toggle navigation\"\r\n        [attr.aria-expanded]=\"isExpanded\"\r\n        (click)=\"toggle()\"\r\n      >\r\n        <span class=\"navbar-toggler-icon\"></span>\r\n      </button>\r\n      <div\r\n        class=\"navbar-collapse collapse d-sm-inline-flex justify-content-end\"\r\n        [ngClass]=\"{ show: isExpanded }\"\r\n      >\r\n        <ul class=\"navbar-nav flex-grow\">\r\n          <li class=\"nav-item\"\r\n              [routerLinkActive]=\"['link-active']\"\r\n              [routerLinkActiveOptions]=\"{ exact: true }\">\r\n            <a class=\"nav-link text-dark\" [routerLink]=\"['/']\">Home</a>\r\n          </li>\r\n          <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n            <a class=\"nav-link text-dark\" [routerLink]=\"['/mood']\">Mood</a>\r\n          </li>\r\n          <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n            <a class=\"nav-link text-dark\" [routerLink]=\"['/personal-mood']\">Personal Mood</a>\r\n          </li>\r\n          <!--<li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n            <a class=\"nav-link text-dark\" [routerLink]=\"['/statistics']\">Statistics</a>\r\n          </li>-->\r\n        </ul>\r\n      </div>\r\n    </div>\r\n  </nav>\r\n</header>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<header>\r\n  <nav\r\n    class=\"navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3\"\r\n  >\r\n    <div class=\"container\">\r\n    <a class=\"navbar-brand\" [routerLink]=\"['/']\"><img style=\"width:85px\" src=\"assets/logo.png\"></a>\r\n      <button\r\n        class=\"navbar-toggler\"\r\n        type=\"button\"\r\n        data-toggle=\"collapse\"\r\n        data-target=\".navbar-collapse\"\r\n        aria-label=\"Toggle navigation\"\r\n        [attr.aria-expanded]=\"isExpanded\"\r\n        (click)=\"toggle()\"\r\n      >\r\n        <span class=\"navbar-toggler-icon\"></span>\r\n      </button>\r\n      <div\r\n        class=\"navbar-collapse collapse d-sm-inline-flex justify-content-end\"\r\n        [ngClass]=\"{ show: isExpanded }\"\r\n      >\r\n        <ul class=\"navbar-nav flex-grow\">\r\n          <li class=\"nav-item\"\r\n              [routerLinkActive]=\"['link-active']\"\r\n              [routerLinkActiveOptions]=\"{ exact: true }\">\r\n            <a class=\"nav-link text-dark\" [routerLink]=\"['/']\">Home</a>\r\n          </li>\r\n          <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n            <a class=\"nav-link text-dark\" [routerLink]=\"['/mood']\">Mood</a>\r\n          </li>\r\n          <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n            <a class=\"nav-link text-dark\" [routerLink]=\"['/personal-mood']\">Personal Mood</a>\r\n          </li>\r\n          <li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n            <a class=\"nav-link text-dark\" [routerLink]=\"['/menu']\">Menu</a>\r\n          </li>\r\n          <!--<li class=\"nav-item\" [routerLinkActive]=\"['link-active']\">\r\n    <a class=\"nav-link text-dark\" [routerLink]=\"['/statistics']\">Statistics</a>\r\n  </li>-->\r\n        </ul>\r\n      </div>\r\n    </div>\r\n  </nav>\r\n</header>\r\n");
 
 /***/ }),
 
@@ -926,15 +1021,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_material_stepper__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @angular/material/stepper */ "xHqg");
 /* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! @angular/material/form-field */ "kmnG");
 /* harmony import */ var _home_home_add_menu_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./home/home-add-menu.component */ "pPbC");
-/* harmony import */ var _home_menu_list_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./home/menu-list.component */ "HQqs");
-/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./footer/footer.component */ "fp1T");
-/* harmony import */ var _statistics_statistics_add_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./statistics/statistics-add.component */ "MauR");
+/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./footer/footer.component */ "fp1T");
+/* harmony import */ var _statistics_statistics_add_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./statistics/statistics-add.component */ "MauR");
+/* harmony import */ var _menu_menu_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./menu/menu.component */ "TGkX");
+/* harmony import */ var _menu_menu_read_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./menu/menu-read.component */ "XR8T");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -975,15 +1072,16 @@ AppModule = __decorate([
             _nav_menu_nav_menu_component__WEBPACK_IMPORTED_MODULE_6__["NavMenuComponent"],
             _home_home_component__WEBPACK_IMPORTED_MODULE_7__["HomeComponent"],
             _statistics_statistics_component__WEBPACK_IMPORTED_MODULE_8__["StatisticsComponent"],
-            _statistics_statistics_add_component__WEBPACK_IMPORTED_MODULE_30__["StatisticsAddComponent"],
+            _statistics_statistics_add_component__WEBPACK_IMPORTED_MODULE_29__["StatisticsAddComponent"],
             _mood_mood_component__WEBPACK_IMPORTED_MODULE_9__["MoodComponent"],
             _personal_mood_personal_mood_component__WEBPACK_IMPORTED_MODULE_11__["PersonalMoodComponent"],
             _personal_mood_personal_mood_add_component__WEBPACK_IMPORTED_MODULE_12__["PersonalMoodAddComponent"],
             _personal_mood_personal_mood_edit_component__WEBPACK_IMPORTED_MODULE_13__["PersonalMoodEditComponent"],
             _personal_mood_personal_mood_read_component__WEBPACK_IMPORTED_MODULE_14__["PersonalMoodReadComponent"],
             _home_home_add_menu_component__WEBPACK_IMPORTED_MODULE_27__["HomeAddMenuComponent"],
-            _home_menu_list_component__WEBPACK_IMPORTED_MODULE_28__["MenuListComponent"],
-            _footer_footer_component__WEBPACK_IMPORTED_MODULE_29__["FooterComponent"],
+            _footer_footer_component__WEBPACK_IMPORTED_MODULE_28__["FooterComponent"],
+            _menu_menu_component__WEBPACK_IMPORTED_MODULE_30__["MenuComponent"],
+            _menu_menu_read_component__WEBPACK_IMPORTED_MODULE_31__["MenuReadComponent"],
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"].withServerTransition({ appId: 'ng-cli-universal' }),
@@ -1005,7 +1103,7 @@ AppModule = __decorate([
             _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"].forRoot([
                 { path: '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_7__["HomeComponent"], pathMatch: 'full' },
                 { path: 'statistics', component: _statistics_statistics_component__WEBPACK_IMPORTED_MODULE_8__["StatisticsComponent"] },
-                { path: 'statistics-add', component: _statistics_statistics_add_component__WEBPACK_IMPORTED_MODULE_30__["StatisticsAddComponent"] },
+                { path: 'statistics-add', component: _statistics_statistics_add_component__WEBPACK_IMPORTED_MODULE_29__["StatisticsAddComponent"] },
                 { path: 'mood', component: _mood_mood_component__WEBPACK_IMPORTED_MODULE_9__["MoodComponent"] },
                 { path: 'personal-mood', component: _personal_mood_personal_mood_component__WEBPACK_IMPORTED_MODULE_11__["PersonalMoodComponent"] },
                 { path: 'personal-mood-add', component: _personal_mood_personal_mood_add_component__WEBPACK_IMPORTED_MODULE_12__["PersonalMoodAddComponent"] },
@@ -1013,8 +1111,9 @@ AppModule = __decorate([
                 { path: 'personal-mood-read/:id', component: _personal_mood_personal_mood_read_component__WEBPACK_IMPORTED_MODULE_14__["PersonalMoodReadComponent"] },
                 { path: 'home-add-menu/:id', component: _home_home_add_menu_component__WEBPACK_IMPORTED_MODULE_27__["HomeAddMenuComponent"] },
                 { path: 'personal-mood-add/:id', component: _personal_mood_personal_mood_add_component__WEBPACK_IMPORTED_MODULE_12__["PersonalMoodAddComponent"] },
-                { path: 'menu-list', component: _home_menu_list_component__WEBPACK_IMPORTED_MODULE_28__["MenuListComponent"] },
-                { path: 'footer', component: _footer_footer_component__WEBPACK_IMPORTED_MODULE_29__["FooterComponent"] },
+                { path: 'footer', component: _footer_footer_component__WEBPACK_IMPORTED_MODULE_28__["FooterComponent"] },
+                { path: 'menu', component: _menu_menu_component__WEBPACK_IMPORTED_MODULE_30__["MenuComponent"] },
+                { path: 'menu-read/:id', component: _menu_menu_read_component__WEBPACK_IMPORTED_MODULE_31__["MenuReadComponent"] },
             ]),
             _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_10__["BrowserAnimationsModule"]
         ],
@@ -1050,6 +1149,66 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("a.navbar-brand {\r\n  white-space: normal;\r\n  text-align: center;\r\n  word-break: break-all;\r\n}\r\n\r\nhtml {\r\n  font-size: 14px;\r\n}\r\n\r\n@media (min-width: 768px) {\r\n  html {\r\n    font-size: 16px;\r\n  }\r\n}\r\n\r\n.box-shadow {\r\n  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm5hdi1tZW51LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxtQkFBbUI7RUFDbkIsa0JBQWtCO0VBQ2xCLHFCQUFxQjtBQUN2Qjs7QUFFQTtFQUNFLGVBQWU7QUFDakI7O0FBQ0E7RUFDRTtJQUNFLGVBQWU7RUFDakI7QUFDRjs7QUFFQTtFQUNFLDhDQUE4QztBQUNoRCIsImZpbGUiOiJuYXYtbWVudS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYS5uYXZiYXItYnJhbmQge1xyXG4gIHdoaXRlLXNwYWNlOiBub3JtYWw7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIHdvcmQtYnJlYWs6IGJyZWFrLWFsbDtcclxufVxyXG5cclxuaHRtbCB7XHJcbiAgZm9udC1zaXplOiAxNHB4O1xyXG59XHJcbkBtZWRpYSAobWluLXdpZHRoOiA3NjhweCkge1xyXG4gIGh0bWwge1xyXG4gICAgZm9udC1zaXplOiAxNnB4O1xyXG4gIH1cclxufVxyXG5cclxuLmJveC1zaGFkb3cge1xyXG4gIGJveC1zaGFkb3c6IDAgLjI1cmVtIC43NXJlbSByZ2JhKDAsIDAsIDAsIC4wNSk7XHJcbn1cclxuIl19 */");
+
+/***/ }),
+
+/***/ "dnud":
+/*!**************************************!*\
+  !*** ./src/app/menu/menu.service.ts ***!
+  \**************************************/
+/*! exports provided: MenuService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuService", function() { return MenuService; });
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/common/http */ "tk/3");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "tyNb");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+let MenuService = class MenuService {
+    constructor(http, baseUrl, router) {
+        this.http = http;
+        this.baseUrl = baseUrl;
+        this.router = router;
+    }
+    loadFood() {
+        return this.http.get(this.baseUrl + 'api/foods');
+    }
+    loadFoodByID(id) {
+        return this.http.get(this.baseUrl + 'api/foods/' + id);
+    }
+    deleteFood(food) {
+        var ans = confirm("Do you want to delete this menu?");
+        if (ans) {
+            return this.http.delete(this.baseUrl + 'api/foods/' + food.id);
+        }
+    }
+};
+MenuService.ctorParameters = () => [
+    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpClient"] },
+    { type: String, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"], args: ['BASE_URL',] }] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"] }
+];
+MenuService = __decorate([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+        providedIn: 'root'
+    }),
+    __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpClient"], String, _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
+], MenuService);
+
+
 
 /***/ }),
 
@@ -1253,7 +1412,7 @@ let HomeAddMenuComponent = class HomeAddMenuComponent {
     }
     saveInPersonalMenu() {
         this.homeService.saveAddInPersonalMenu(this.food).subscribe(result => {
-            return this.router.navigateByUrl("/menu-list");
+            return this.router.navigateByUrl("/menu");
         }, error => console.error(error));
     }
 };
@@ -1348,6 +1507,19 @@ PersonalMoodComponent = __decorate([
 ], PersonalMoodComponent);
 
 
+
+/***/ }),
+
+/***/ "sxhZ":
+/*!********************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/menu/menu.component.html ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!--<div class=\"example-button-row\">\r\n  <button mat-raised-button color=\"accent\" [routerLink]=\"['/personal-mood-add']\">Add extra mood for today</button>\r\n</div>-->\r\n\r\n<div style=\"margin-bottom:30px\">\r\n  <table mat-table [dataSource]=\"foods\" class=\"mat-elevation-z8\">\r\n    <ng-container matColumnDef=\"moodID\">\r\n      <th mat-header-cell *matHeaderCellDef style=\"width:5%\">Mood ID</th>\r\n      <td mat-cell *matCellDef=\"let food\">{{ food.moodID }}</td>\r\n    </ng-container>\r\n\r\n    <ng-container matColumnDef=\"foodForTheMood\">\r\n      <th mat-header-cell *matHeaderCellDef style=\"width:20%\">What Need</th>\r\n      <td mat-cell *matCellDef=\"let food\"> {{ food.foodForTheMood }} </td>\r\n    </ng-container>\r\n\r\n    <ng-container matColumnDef=\"morning\">\r\n      <th mat-header-cell *matHeaderCellDef style=\"width:20%\">Morning</th>\r\n      <td mat-cell *matCellDef=\"let food\"> {{ food.morning }} </td>\r\n    </ng-container>\r\n\r\n    <ng-container matColumnDef=\"noon\">\r\n      <th mat-header-cell *matHeaderCellDef style=\"width:20%\">Noon</th>\r\n      <td mat-cell *matCellDef=\"let food\"> {{ food.noon }} </td>\r\n    </ng-container>\r\n\r\n    <ng-container matColumnDef=\"evening\">\r\n      <th mat-header-cell *matHeaderCellDef style=\"width:20%\">Evening</th>\r\n      <td mat-cell *matCellDef=\"let food\"> {{ food.evening }} </td>\r\n    </ng-container>\r\n\r\n    <ng-container matColumnDef=\"action\">\r\n      <th mat-header-cell *matHeaderCellDef style=\"width:15%\">Actions</th>\r\n      <td mat-cell *matCellDef=\"let food\">\r\n        <section style=\"display:flex; justify-content:space-between\">\r\n          <button mat-icon-button color=\"accent\" aria-label=\"Example icon button with a home icon\" matTooltip=\"Read\">\r\n            <mat-icon aria-hidden=\"false\" aria-label=\"Example home icon\" [routerLink]=\"['/menu-read', food.id]\" style=\"cursor:pointer\">info</mat-icon>\r\n          </button>\r\n          <div *ngIf=\"food.personalOrDefault == 1\">\r\n            <button mat-icon-button color=\"accent\" aria-label=\"Example icon button with a home icon\" matTooltip=\"Delete\">\r\n              <mat-icon aria-hidden=\"false\" aria-label=\"Example home icon\" (click)=\"deleteFood(food)\" style=\"cursor:pointer\">delete</mat-icon>\r\n            </button>\r\n          </div>\r\n        </section>\r\n      </td>\r\n    </ng-container>\r\n\r\n    <!--<ng-container matColumnDef=\"actions\">\r\n    <th mat-header-cell *matHeaderCellDef style=\"width:15%\">Actions</th>\r\n    <td mat-cell *matCellDef=\"let personalMood\">\r\n      <section>\r\n        <div class=\"example-button-row\">\r\n          <button mat-icon-button color=\"accent\" aria-label=\"Example icon button with a home icon\" matTooltip=\"Edit\">\r\n            <mat-icon aria-hidden=\"false\" aria-label=\"Example home icon\" [routerLink]=\"['/personal-mood-edit',personalMood.id]\" style=\"cursor:pointer\">edit</mat-icon>\r\n          </button>\r\n          <button mat-icon-button color=\"accent\" aria-label=\"Example icon button with a home icon\" matTooltip=\"Info\">\r\n            <mat-icon aria-hidden=\"false\" aria-label=\"Example home icon\" [routerLink]=\"['/personal-mood-read',personalMood.id]\" style=\"cursor:pointer\">info</mat-icon>\r\n          </button>\r\n          <button mat-icon-button color=\"accent\" aria-label=\"Example icon button with a home icon\" matTooltip=\"Delete\">\r\n            <mat-icon aria-hidden=\"false\" aria-label=\"Example home icon\" (click)=\"deletePersonalMood(personalMood)\" style=\"cursor:pointer\">delete</mat-icon>\r\n          </button>\r\n        </div>\r\n      </section>\r\n    </td>\r\n  </ng-container>-->\r\n\r\n    <tr mat-header-row *matHeaderRowDef=\"columnsToDisplay \"></tr>\r\n    <tr mat-row *matRowDef=\"let myRowData; columns: columnsToDisplay ;\"></tr>\r\n  </table>\r\n\r\n</div>\r\n\r\n");
 
 /***/ }),
 

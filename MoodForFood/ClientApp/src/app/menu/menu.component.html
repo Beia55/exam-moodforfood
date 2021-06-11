@@ -1,0 +1,72 @@
+<!--<div class="example-button-row">
+  <button mat-raised-button color="accent" [routerLink]="['/personal-mood-add']">Add extra mood for today</button>
+</div>-->
+
+<div style="margin-bottom:30px">
+  <table mat-table [dataSource]="foods" class="mat-elevation-z8">
+    <ng-container matColumnDef="moodID">
+      <th mat-header-cell *matHeaderCellDef style="width:5%">Mood ID</th>
+      <td mat-cell *matCellDef="let food">{{ food.moodID }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="foodForTheMood">
+      <th mat-header-cell *matHeaderCellDef style="width:20%">What Need</th>
+      <td mat-cell *matCellDef="let food"> {{ food.foodForTheMood }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="morning">
+      <th mat-header-cell *matHeaderCellDef style="width:20%">Morning</th>
+      <td mat-cell *matCellDef="let food"> {{ food.morning }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="noon">
+      <th mat-header-cell *matHeaderCellDef style="width:20%">Noon</th>
+      <td mat-cell *matCellDef="let food"> {{ food.noon }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="evening">
+      <th mat-header-cell *matHeaderCellDef style="width:20%">Evening</th>
+      <td mat-cell *matCellDef="let food"> {{ food.evening }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="action">
+      <th mat-header-cell *matHeaderCellDef style="width:15%">Actions</th>
+      <td mat-cell *matCellDef="let food">
+        <section style="display:flex; justify-content:space-between">
+          <button mat-icon-button color="accent" aria-label="Example icon button with a home icon" matTooltip="Read">
+            <mat-icon aria-hidden="false" aria-label="Example home icon" [routerLink]="['/menu-read', food.id]" style="cursor:pointer">info</mat-icon>
+          </button>
+          <div *ngIf="food.personalOrDefault == 1">
+            <button mat-icon-button color="accent" aria-label="Example icon button with a home icon" matTooltip="Delete">
+              <mat-icon aria-hidden="false" aria-label="Example home icon" (click)="deleteFood(food)" style="cursor:pointer">delete</mat-icon>
+            </button>
+          </div>
+        </section>
+      </td>
+    </ng-container>
+
+    <!--<ng-container matColumnDef="actions">
+    <th mat-header-cell *matHeaderCellDef style="width:15%">Actions</th>
+    <td mat-cell *matCellDef="let personalMood">
+      <section>
+        <div class="example-button-row">
+          <button mat-icon-button color="accent" aria-label="Example icon button with a home icon" matTooltip="Edit">
+            <mat-icon aria-hidden="false" aria-label="Example home icon" [routerLink]="['/personal-mood-edit',personalMood.id]" style="cursor:pointer">edit</mat-icon>
+          </button>
+          <button mat-icon-button color="accent" aria-label="Example icon button with a home icon" matTooltip="Info">
+            <mat-icon aria-hidden="false" aria-label="Example home icon" [routerLink]="['/personal-mood-read',personalMood.id]" style="cursor:pointer">info</mat-icon>
+          </button>
+          <button mat-icon-button color="accent" aria-label="Example icon button with a home icon" matTooltip="Delete">
+            <mat-icon aria-hidden="false" aria-label="Example home icon" (click)="deletePersonalMood(personalMood)" style="cursor:pointer">delete</mat-icon>
+          </button>
+        </div>
+      </section>
+    </td>
+  </ng-container>-->
+
+    <tr mat-header-row *matHeaderRowDef="columnsToDisplay "></tr>
+    <tr mat-row *matRowDef="let myRowData; columns: columnsToDisplay ;"></tr>
+  </table>
+
+</div>
+

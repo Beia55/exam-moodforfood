@@ -1,0 +1,39 @@
+
+<div class="my-container-card" style="padding-bottom:17px">
+  <mat-card class="example-card" style="width:100%">
+
+    <h1 style="color: red; margin-left: 28%">Read Menu</h1>
+
+    <div style="padding:7%">
+
+      <mat-divider></mat-divider>
+      <mat-card-header style="margin-left:20%">
+        <mat-card-title>Mood For Food:</mat-card-title>
+        <mat-card-subtitle>{{ food.foodForTheMood }}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-divider></mat-divider>
+
+      <mat-card-header style="margin-left:20%">
+        <mat-card-title>Morning:</mat-card-title>
+        <mat-card-subtitle>{{ food.morning }}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-divider></mat-divider>
+
+      <mat-card-header style="margin-left:20%">
+        <mat-card-title>Noon:</mat-card-title>
+        <mat-card-subtitle>{{ food.noon}}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-divider></mat-divider>
+
+      <mat-card-header style="margin-left:20%">
+        <mat-card-title>Evening:</mat-card-title>
+        <mat-card-subtitle>{{ food.evening}}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-divider></mat-divider>
+
+      <mat-card-content style="margin-left:25%; margin-top:10%; margin-bottom: -10px">
+        <button mat-raised-button color="accent" [routerLink]="['/menu']">Back to list</button>
+      </mat-card-content>
+    </div>
+  </mat-card>
+</div>

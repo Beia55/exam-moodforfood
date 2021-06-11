@@ -28,7 +28,7 @@ export class HomeAddMenuComponent {
 
   public saveInPersonalMenu() {
     this.homeService.saveAddInPersonalMenu(this.food).subscribe(result => {
-      return this.router.navigateByUrl("/menu-list");
+      return this.router.navigateByUrl("/menu");
     }, error => console.error(error))
   }
 

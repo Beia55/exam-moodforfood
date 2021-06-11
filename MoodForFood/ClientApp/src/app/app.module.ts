@@ -31,9 +31,10 @@ import { MatStepperModule } from '@angular/material/stepper';
 import { MatFormFieldModule } from '@angular/material/form-field';
 
 import { HomeAddMenuComponent } from './home/home-add-menu.component';
-import { MenuListComponent } from './home/menu-list.component';
 import { FooterComponent } from './footer/footer.component';
 import { StatisticsAddComponent } from './statistics/statistics-add.component';
+import { MenuComponent } from './menu/menu.component';
+import { MenuReadComponent } from './menu/menu-read.component';
 
 
 @NgModule({
@@ -51,8 +52,9 @@ import { StatisticsAddComponent } from './statistics/statistics-add.component';
     PersonalMoodReadComponent,
 
     HomeAddMenuComponent,
-    MenuListComponent,
     FooterComponent,
+    MenuComponent,
+    MenuReadComponent,
     
   ],
   imports: [
@@ -89,8 +91,9 @@ import { StatisticsAddComponent } from './statistics/statistics-add.component';
       { path: 'personal-mood-read/:id', component: PersonalMoodReadComponent },
       { path: 'home-add-menu/:id', component: HomeAddMenuComponent },
       { path: 'personal-mood-add/:id', component: PersonalMoodAddComponent },
-      { path: 'menu-list', component: MenuListComponent },
       { path: 'footer', component: FooterComponent },
+      { path: 'menu', component: MenuComponent },
+      { path: 'menu-read/:id', component: MenuReadComponent },
 
     ]),
     BrowserAnimationsModule
